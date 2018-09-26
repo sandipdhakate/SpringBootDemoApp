@@ -8,5 +8,14 @@
 </head>
 <body>
 <h2>This is Home Page</h2>
+
+<form action="register" method="Post">
+    <br><br>
+    <input type="submit" value="Register">
+</form>
+    <br><br>
+<form action="login" method="Post">
+    <input type="submit"value="Login">
+</form>
 </body>
 </html>
