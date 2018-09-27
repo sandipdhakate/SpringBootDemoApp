@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Employee Registration</title>
 </head>
 <body>
 <h2>Enter bellow the employee details to get registered</h2>

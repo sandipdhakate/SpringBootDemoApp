@@ -1,4 +1,4 @@
-package com.sandip.SpringBootDemo;
+package com.employee.controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

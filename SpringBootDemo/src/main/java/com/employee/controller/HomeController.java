@@ -1,4 +1,4 @@
-package com.sandip.SpringBootDemo;
+package com.employee.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,7 +11,7 @@ public class HomeController {
 		return "Home";
 	}
 	
-	@RequestMapping("register")
+	@RequestMapping("registration")
 	public String register() {
 		return "Register";
 	}

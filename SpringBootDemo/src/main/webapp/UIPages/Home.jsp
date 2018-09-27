@@ -9,7 +9,7 @@
 <body>
 <h2>This is Home Page</h2>
 
-<form action="register" method="Post">
+<form action="registration" method="Post">
     <br><br>
     <input type="submit" value="Register">
 </form>
