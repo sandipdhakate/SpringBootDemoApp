@@ -1,10 +1,24 @@
 package com.employee.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Employee {
-	String firstName;
-	String lastName;
-	String age;
-	String salary;
+	
+	@Id
+	private int eId;
+	private String firstName;
+	private String lastName;
+	private String age;
+	private String salary;
+	
+	public int geteId() {
+		return eId;
+	}
+	public void seteId(int eId) {
+		this.eId = eId;
+	}
 	public String getFirstName() {
 		return firstName;
 	}
@@ -31,9 +45,10 @@ public class Employee {
 	}
 	@Override
 	public String toString() {
-		return "Employee [firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + ", salary=" + salary
-				+ "]";
+		return "Employee [eId=" + eId + ", firstName=" + firstName + ", lastName=" + lastName + ", age=" + age
+				+ ", salary=" + salary + "]";
 	}
+
 	
 	
 
