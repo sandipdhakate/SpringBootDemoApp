@@ -1,23 +1,25 @@
-package com.employee.model;
+package com.employee.controller;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+import org.springframework.stereotype.Component;
 @Entity
 public class Employee {
 	
 	@Id
-	private int eId;
+	private int Id;
 	private String firstName;
 	private String lastName;
-	private String age;
-	private String salary;
+	private int age;
+	private int salary;
 	
-	public int geteId() {
-		return eId;
+	public int getId() {
+		return Id;
 	}
-	public void seteId(int eId) {
-		this.eId = eId;
+	public void setId(int Id) {
+		this.Id = Id;
 	}
 	public String getFirstName() {
 		return firstName;
@@ -31,21 +33,21 @@ public class Employee {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public String getAge() {
+	public int getAge() {
 		return age;
 	}
-	public void setAge(String age) {
+	public void setAge(int age) {
 		this.age = age;
 	}
-	public String getSalary() {
+	public int getSalary() {
 		return salary;
 	}
-	public void setSalary(String salary) {
+	public void setSalary(int salary) {
 		this.salary = salary;
 	}
 	@Override
 	public String toString() {
-		return "Employee [eId=" + eId + ", firstName=" + firstName + ", lastName=" + lastName + ", age=" + age
+		return "Employee [Id=" + Id + ", firstName=" + firstName + ", lastName=" + lastName + ", age=" + age
 				+ ", salary=" + salary + "]";
 	}
 

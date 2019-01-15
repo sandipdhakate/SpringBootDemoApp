@@ -8,8 +8,8 @@
 </head>
 <body>
 <h2>Enter bellow the employee details to get registered</h2>
-<form action="" method="Post">
-Employee ID : <input type="text" name="eId">
+<form action="addEmployee" method="Post">
+Employee ID : <input type="number" name="Id">
 First name : <input type="text" name="firstName">
 Last name : <input type="text" name="lastName">
 Age : <input type="number" name="age">
